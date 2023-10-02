@@ -1,0 +1,39 @@
+body{
+    background-color:crimson
+}
+.container{
+    width: 700px;
+    margin:auto;
+    background-color:white;
+}
+.header h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.header ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.cover{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-image: url(/img/impectaaa.jpg);
+}
+.content h1{
+    font-size: 50px;
+    margin:auto;
+    text-align: center;
+}
+.content h4{
+    margin-left: 20px;
+}
+.footer{
+    background-color: crimson;
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+.footer p{
+    font-size: 18px;
+}
