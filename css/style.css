@@ -20,20 +20,29 @@ body{
     margin: auto;
     background-image: url(/img/impectaaa.jpg);
 }
-.content h1{
-    font-size: 50px;
+.Home h1{
     margin:auto;
-    text-align: center;
 }
-.content h4{
+.Home h4{
+    font-size: 15px;
     margin-left: 20px;
 }
-.footer{
+.Home p{
+    text-align: justify;
+}
+.Contact h1{
+    margin: auto;
+    text-align: center;
+}
+.Contact p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.copyright{
     background-color: crimson;
     text-align: center;
     color:white;
     margin-top: 20px;
-}
-.footer p{
-    font-size: 18px;
+    font-size: 15px;
 }
