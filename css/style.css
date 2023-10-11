@@ -1,5 +1,5 @@
 body{
-    background-color:crimson
+    background-color:#dc143c
 }
 .container{
     width: 700px;
@@ -20,21 +20,76 @@ body{
     margin: auto;
     background-image: url(/img/impectaaa.jpg);
 }
-.Home h1{
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    height:max-content;
+    overflow: auto;
+}
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+  .sidebar a.active {
+    background-color: #dc143c;
+    color: white;
+}
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+.home {
+    margin-left: 200px;
+}
+.home h1{
     margin:auto;
 }
-.Home h4{
+.home h4{
     font-size: 15px;
     margin-left: 20px;
 }
-.Home p{
+.home p{
     text-align: justify;
 }
-.Contact h1{
+.pengurus{
+    margin-left: 200px;
+}
+.aboutus{
+    margin-left: 200px;
+}
+.contact{
+    margin-left: 200px;
+}
+.contact h1{
     margin: auto;
     text-align: center;
 }
-.Contact p{
+.contact p{
     text-align: center;
     font-size: 15px;
     margin-top: 2px;
